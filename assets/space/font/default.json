@@ -76,7 +76,7 @@
             "type": "bitmap",
             "file": "space:font/space_nosplit.png",
             "ascent": -32768,
-            "height": 987,
+            "height": 986,
             "chars": [
                 "2"
             ]
