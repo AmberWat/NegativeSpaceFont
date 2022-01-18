@@ -40,6 +40,6 @@ They require 1.16's multi font support and setting `"font":"space:default"`.
 | `5`  | 55 wide    |
 | `4`  | 144 wide   |
 | `3`  | 377 wide   |
-| `2`  | 987 wide   |
+| `2`  | 988 wide   |
 | `1`  | 2584 wide  |
 | `-`  | -6765 wide |
