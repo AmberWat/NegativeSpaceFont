@@ -25,46 +25,44 @@ Use `offset.<width>` to shift only the content inside `with` and then return:
 ## Basic characters (Intermediate)
 These are available in a select number of sizes to strike a balance between ease of use and taking up valuable capacity.
 
-| Regular (Recommended) | No-Split (Performance) | Width |
-|-----------------------|------------------------|-------|
-| `\uF801`              | `\uF811`               | -1    |
-| `\uF802`              | `\uF812`               | -2    |
-| `\uF803`              | `\uF813`               | -3    |
-| `\uF804`              | `\uF814`               | -4    |
-| `\uF805`              | `\uF815`               | -5    |
-| `\uF806`              | `\uF816`               | -6    |
-| `\uF807`              | `\uF817`               | -7    |
-| `\uF808`              | `\uF818`               | -8    |
-| `\uF809`              | `\uF819`               | -16   |
-| `\uF80A`              | `\uF81A`               | -32   |
-| `\uF80B`              | `\uF81B`               | -64   |
-| `\uF80C`              | `\uF81C`               | -128  |
-| `\uF80D`              | `\uF81D`               | -256  |
-| `\uF80E`              | `\uF81E`               | -512  |
-| `\uF80F`              | `\uF81F`               | -1024 |
-| `\uF800`              | `\uF810`               | -max  |
+| Character             | Width |
+|-----------------------|-------|
+| `\uF801`              | -1    |
+| `\uF802`              | -2    |
+| `\uF803`              | -3    |
+| `\uF804`              | -4    |
+| `\uF805`              | -5    |
+| `\uF806`              | -6    |
+| `\uF807`              | -7    |
+| `\uF808`              | -8    |
+| `\uF809`              | -16   |
+| `\uF80A`              | -32   |
+| `\uF80B`              | -64   |
+| `\uF80C`              | -128  |
+| `\uF80D`              | -256  |
+| `\uF80E`              | -512  |
+| `\uF80F`              | -1024 |
+| `\uF800`              | -max  |
 
 
-| Regular (Recommended) | No-Split (Performance) | Width |
-|-----------------------|------------------------|-------|
-| `\uF821`              | `\uF831`               | 1     |
-| `\uF822`              | `\uF832`               | 2     |
-| `\uF823`              | `\uF833`               | 3     |
-| `\uF824`              | `\uF834`               | 4     |
-| `\uF825`              | `\uF835`               | 5     |
-| `\uF826`              | `\uF836`               | 6     |
-| `\uF827`              | `\uF837`               | 7     |
-| `\uF828`              | `\uF838`               | 8     |
-| `\uF829`              | `\uF839`               | 16    |
-| `\uF82A`              | `\uF83A`               | 32    |
-| `\uF82B`              | `\uF83B`               | 64    |
-| `\uF82C`              | `\uF83C`               | 128   |
-| `\uF82D`              | `\uF83D`               | 256   |
-| `\uF82E`              | `\uF83E`               | 512   |
-| `\uF82F`              | `\uF83F`               | 1024  |
-| `\uF820`              | `\uF830`               | max   |
-
-The **no-split** versions cause text rendering to be processed in larger chunks. This improves performance but makes render order unpredictable when there is overlap. However, they can be mixed and a single **regular** version character will fix the order.
+| Character             | Width |
+|-----------------------|-------|
+| `\uF821`              | 1     |
+| `\uF822`              | 2     |
+| `\uF823`              | 3     |
+| `\uF824`              | 4     |
+| `\uF825`              | 5     |
+| `\uF826`              | 6     |
+| `\uF827`              | 7     |
+| `\uF828`              | 8     |
+| `\uF829`              | 16    |
+| `\uF82A`              | 32    |
+| `\uF82B`              | 64    |
+| `\uF82C`              | 128   |
+| `\uF82D`              | 256   |
+| `\uF82E`              | 512   |
+| `\uF82F`              | 1024  |
+| `\uF820`              | max   |
 
 ## Magic digits (Intermediate)
 These make it possible to generate dynamic widths without a lookup table by utilizing the easy manipulation of scoreboard values.
