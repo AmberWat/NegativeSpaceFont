@@ -1,0 +1,1 @@
+tellraw @s [[{"text":"width: ","color":"gold"},{"score":{"name":"width","objective":"spacefont"}}], [{"text":"\nspacer: ","color":"dark_green"}, {"score":{"name":"spacer","objective":"spacefont"}}], [{"text":"\n#is_neg: ","color":"gray"}, {"score":{"name":"#is_neg","objective":"spacefont"}}], [{"text":"\n#-1: ","color":"gray"}, {"score":{"name":"#-1","objective":"spacefont"}}]]
