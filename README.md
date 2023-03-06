@@ -72,7 +72,7 @@ These are an advanced option for those who want it.
 ### `newlayer`
 Inserts a special character that "splits up" the rendering of the current text. The effect is that everything after the split ends up on a new layer on top of everything that came before.
 
-This are not mandatory but can help with rendering issues where content ends up behind something else. *They carry a slight performance penalty that can affect client FPS when used in large amounts.*
+These are not mandatory but can help with rendering issues where content ends up behind something else. *They carry a slight performance penalty that can affect client FPS when used in large amounts.*
 
 **JSON Example:**
 ```json
