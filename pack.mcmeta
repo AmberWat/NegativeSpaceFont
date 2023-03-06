@@ -1,6 +1,14 @@
 {
-  "pack": {
-    "pack_format": 8,
-    "description": "Version 4.1\nNow Intel™ Compatible!"
-  }
+    "pack": {
+        "pack_format": 13,
+        "description": [
+            "",
+            {"text": "v5.0", "color": "gray"},
+            " for ",
+            {"text": "Minecraft 1.19", "color": "gray"},
+            "\n",
+            {"text": "Reverse spaces", "color": "gray"},
+            " & font magic"
+        ]
+    }
 }
