@@ -22,6 +22,8 @@ You can check if the pack itself is working with a simple `tellraw` command:
 /tellraw @a [{"text": "Start", "color": "blue"},{"translate": "space.-11"},{"text": "End", "color": "red"}]
 ```
 
+If you're really stuck, feel free to [ask for help](#bugs-help-and-feedback).
+
 License and use
 ---------------
 This pack is availible under Creative Commons Attribution 4.0 International (see LICENSE.txt). This gives you a lot of freedom to spread and adapt it to suit your needs. For example, you could alter parts that don't suit your needs and/or merge it into a pack of your own and share it.
@@ -189,7 +191,7 @@ Works the same as the [newlayer](#newlayer) translation key.
 | `󀀀`  | `\u{C0000}` | `\uDAC0\uDC00` |
 
 
-Bugs and feedback
------------------
+Bugs, help and feedback
+-----------------------
 
-If you discover a bug, have a request or need help, please submit an issue on [GitHub](https://github.com/AmberWat/NegativeSpaceFont) or contact `AmberW#4615` on Discord.
+If you discover a bug, have a request or need help, please submit an issue on [GitHub](https://github.com/AmberWat/NegativeSpaceFont) or visit on [Discord](https://discord.gg/ezKsfeQAYH).
