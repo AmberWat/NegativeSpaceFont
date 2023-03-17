@@ -86,7 +86,9 @@ These are not mandatory but can help with rendering issues where content ends up
 Try removing the `{"translate": "newlayer"},` and comparing.
 
 ### What values can be used for `<width>`?
-+ **Integers** from `-4096` to `4096` (`space.691` for example)
++ **Integers** from `-8192` to `8192` (`space.691` for example)
+
++ **Max** both `-max` and `max` as aliases for the largest widths the pack includes (currently `-8192` and `8192`)
 
 + **Fractions** in the form `<numerator>/<denominator>` with a value between -1 and 1, with a denominator of `2`, `3`, `4`, `5`, `6`, `8`, `10`, `12`, `15`, `16`, `20`, `24`, `25`, `30`, `32`, `40`, `48`, `50`, `60`, `64`, `75`, `80`, `96` or `100` (`space.39/60` for example)
 
@@ -144,20 +146,20 @@ Please note that codes above `\uFFFF` must be represented as [surrogate pairs](h
 The language file of the pack can sometimes be a helpful reference as it contains the characters used for all the translation keys.
 
 ### Integer width spaces
-Simple integer widths from `-4096` to `4096`
+Simple integer widths from `-8192` to `8192`
 
 **Example Formula:**
-`0xD0000 + width` converted to a character (`-4096 <= width <= 4096`)
+`0xD0000 + width` converted to a character (`-8192 <= width <= 8192`)
 
 | Char  |    Code     | For Minecraft  |                       Width |
 |:-----:|:-----------:|:--------------:|----------------------------:|
-|  `󏀀`  | `\u{CF000}` | `\uDAFC\uDC00` |                       -4096 |
+|  `󎀀`  | `\u{CE000}` | `\uDAF8\uDC00` |                       -8192 |
 | *...* |    *...*    |     *...*      | *<small>steps of 1</small>* |
 |  `󏿿`  | `\u{CFFFF}` | `\uDAFF\uDFFF` |                          -1 |
 |  `󐀀`  | `\u{D0000}` | `\uDB00\uDC00` |                           0 |
 |  `󐀁`  | `\u{D0001}` | `\uDB00\uDC01` |                           1 |
 | *...* |    *...*    |     *...*      | *<small>steps of 1</small>* |
-|  `󐿿`  | `\u{D0FFF}` | `\uDB03\uDFFF` |                        4096 |
+|  `󒀀`  | `\u{D2000}` | `\uDB08\uDC00` |                        8192 |
 
 ### Fraction width spaces
 Widths that can be expressed as `n/4800`, with `n` being an integer between `-4800` and `4800`.
